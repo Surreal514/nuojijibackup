@@ -1,6 +1,6 @@
 {
   "version": 6,
-  "timestamp": 1786288349303,
+  "timestamp": 1786288356871,
   "appVersion": "6.9.30 (2026.07.20)",
   "tables": [
     "characters",
@@ -73,12 +73,18 @@
     "_migration"
   ],
   "chunkedTables": {
-    "messages": 2,
+    "stickers": 7,
+    "messages": 118,
+    "roleStickers": 4,
     "imageStore": 3
   },
   "completedTables": {
+    "characters": true,
+    "worldBooks": true,
     "kaomojis": true,
     "users": true,
+    "userState": true,
+    "userPosts": true,
     "chatSettings": true,
     "favorites": true,
     "memory": true,
@@ -99,9 +105,10 @@
     "userMessages": true,
     "ttsAudio": true,
     "forumData": true,
+    "calendarData": true,
+    "groupChats": true,
     "xinsheng": true,
     "pomodoroSessions": true,
-    "couplesData": true,
     "stickerStore": true,
     "quickReplies": true,
     "goingOutState": true,
@@ -116,16 +123,8 @@
     "isekaiPresets": true,
     "pomodoroData": true,
     "regexRules": true,
-    "commitments": true,
-    "characterLifeState": true,
-    "healthEntries": true,
-    "homelandState": true,
-    "fontStore": true,
-    "radioData": true,
-    "novelBooks": true,
-    "novelChapters": true,
-    "coReadBooks": true,
-    "coReadSessions": true
+    "mcpServers": true,
+    "commitments": true
   },
   "inProgress": true
 }
