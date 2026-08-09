@@ -1,6 +1,6 @@
 {
   "version": 6,
-  "timestamp": 1786288244277,
+  "timestamp": 1786288245105,
   "appVersion": "6.9.30 (2026.07.20)",
   "tables": [
     "characters",
@@ -73,17 +73,12 @@
     "_migration"
   ],
   "chunkedTables": {
-    "stickers": 7,
-    "messages": 118,
-    "roleStickers": 4
+    "messages": 2,
+    "imageStore": 3
   },
   "completedTables": {
-    "characters": true,
-    "worldBooks": true,
     "kaomojis": true,
     "users": true,
-    "userState": true,
-    "userPosts": true,
     "chatSettings": true,
     "favorites": true,
     "memory": true,
@@ -102,7 +97,12 @@
     "groupSettings": true,
     "userLinks": true,
     "userMessages": true,
-    "ttsAudio": true
+    "ttsAudio": true,
+    "forumData": true,
+    "xinsheng": true,
+    "pomodoroSessions": true,
+    "couplesData": true,
+    "stickerStore": true
   },
   "inProgress": true
 }
