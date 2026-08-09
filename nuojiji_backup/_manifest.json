@@ -1,6 +1,6 @@
 {
   "version": 6,
-  "timestamp": 1786288172228,
+  "timestamp": 1786288173847,
   "appVersion": "6.9.30 (2026.07.20)",
   "tables": [
     "characters",
@@ -73,22 +73,21 @@
     "_migration"
   ],
   "chunkedTables": {
-    "messages": 2
+    "stickers": 7,
+    "messages": 118
   },
   "completedTables": {
+    "characters": true,
+    "worldBooks": true,
     "kaomojis": true,
     "users": true,
+    "userState": true,
+    "userPosts": true,
     "chatSettings": true,
     "favorites": true,
     "memory": true,
     "summaryEntries": true,
-    "callLogs": true,
-    "tmSessions": true,
-    "tmStories": true,
-    "multiSceneSessions": true,
-    "multiSceneStories": true,
-    "multiSceneCastSettings": true,
-    "multiSceneSessionSettings": true
+    "callLogs": true
   },
   "inProgress": true
 }
