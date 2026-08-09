@@ -1,6 +1,6 @@
 {
   "version": 6,
-  "timestamp": 1786288142917,
+  "timestamp": 1786288144176,
   "appVersion": "6.9.30 (2026.07.20)",
   "tables": [
     "characters",
@@ -73,17 +73,15 @@
     "_migration"
   ],
   "chunkedTables": {
-    "stickers": 7,
-    "messages": 116
+    "messages": 2
   },
   "completedTables": {
-    "characters": true,
-    "worldBooks": true,
     "kaomojis": true,
     "users": true,
-    "userState": true,
-    "userPosts": true,
-    "chatSettings": true
+    "chatSettings": true,
+    "favorites": true,
+    "memory": true,
+    "summaryEntries": true
   },
   "inProgress": true
 }
